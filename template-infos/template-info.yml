@@ -6292,3 +6292,26 @@ wordpress-on-ecs:
   LinkUrl: https://help.aliyun.com/document_detail/151691.html
   TemplateName: 在ECS实例上搭建WordPress博客平台
   TemplateUrl: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/documents/help/ecs/wordpress-on-ecs.yml
+deploy-personal-cloud-drive-based-on-nextcloud:
+  Categories:
+    - Solution
+  Description:
+    zh-cn: 基于Nextcloud部署个人网盘。
+    en: Deploy personal web disks based on Nextcloud.
+  Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-personal-cloud-drive-based-on-nextcloud/README.md
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-personal-cloud-drive-based-on-nextcloud/icon.png
+  Labels:
+    ApplicationScenes:
+      - 存储
+    BasicServices:
+      - 弹性计算
+    DeployTypes:
+      - ROS
+    ResourceTypes:
+      - ALIYUN::ECS::InstanceGroup
+      - ALIYUN::ECS::RunCommand
+      - ALIYUN::ECS::SecurityGroup
+      - ALIYUN::ECS::VPC
+      - ALIYUN::ECS::VSwitch
+  TemplateName: 基于Nextcloud部署个人网盘
+  TemplateUrl: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/documents/solution/storage/deploy-personal-cloud-drive-based-on-nextcloud.yml
